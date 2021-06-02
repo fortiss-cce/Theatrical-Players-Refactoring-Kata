@@ -64,6 +64,13 @@ of the requirements later on. You should therefore extract methods and classes a
 that enhance the overall code quality
 but especially prepare the system for the wanted changes.
 
+**Tip**:
+* Do start with adding structure by extracting logical units/methods from the large ``statement method`` (including Session 1)
+* Separate concerns by splitting formatting and calculation logic
+* Add object orientation (if not already done)
+* Prepare for change by adding polymorphism and applying patterns
+
+
 
 ### Wanted change (do not implement them)
 In this example the creators of the booking system want to add code to print the statement as HTML in addition to the existing plain text version.
